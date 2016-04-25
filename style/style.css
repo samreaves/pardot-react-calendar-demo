@@ -1,0 +1,206 @@
+.container {
+	max-height: 800px;
+	padding: 20px 0 0 0;
+}
+
+/* Add Event Modal Styles */
+.my-modal {
+	padding: 20px;
+	position: relative;
+}
+
+.my-modal-header {
+	display: block;
+	height: 50px;
+	position: relative;
+	width: auto;
+}
+
+.my-modal-header > * {
+	display: inline-block;
+	clear: both;
+}
+
+.my-modal-header .left {
+	text-align: left;
+}
+
+.my-modal-header .title {
+	margin: 0;
+}
+.my-modal-header .right {
+	text-align: right;
+	font-size: 1.5em;
+	position: absolute;
+	right: 0;
+}
+.my-modal-header .right > * {
+	vertical-align: middle;
+	margin-left: 1em;
+}
+
+.my-modal-header {
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.input-group-addon {
+	cursor: pointer;
+}
+
+#start-time, #start-date, #end-date, #end-time {
+	display: inline-block;
+	vertical-align: middle;
+}
+.input-group.date, .input-group.time {
+	margin: 0 10px 0 0;
+	width: 150px;
+}
+
+.datepicker-days .day {
+	cursor: pointer;
+}
+
+.my-modal-body label {
+	margin: 0 1em 0 0;
+}
+
+.my-modal-footer {
+	background: #f1f1f1;
+	bottom: 0;
+	height: 60px;
+	padding: 10px 0 10 0px;
+	position: absolute;
+	width: 100%;
+}
+
+.my-modal-footer button {
+	margin: 12px 0 0 20px;
+
+}
+
+.clearfix {
+	clear: both;
+}
+
+sup {
+	color: #F00;
+}
+
+.required {
+	font-weight: bold;
+}
+
+.optional {
+	margin: 10px 0 0 0;
+}
+
+#styled-input {
+	height: 34px;
+  padding: 6px 12px;
+}
+
+.static-image {
+	max-width: 500px;
+}
+
+
+/* Tooltip */
+.custom-tooltip {
+	position: relative;
+	left: 500px;
+	font-size: 2em;
+	width: 250px;
+}
+
+
+/* Share Modal */
+
+#share-link {
+	width: 100%;
+}
+#share-link-label {
+	margin: 0 0 10px 0;
+}
+
+#clipboard {
+	margin: 0 0 0 10px;
+}
+
+.add-user-input {
+	width: 52%;
+	line-height: 34px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.Select {
+	width: 30%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.help-link {
+	  display: inline-block;
+	  float: right;
+	  font-size: 1.2em;
+    position: relative;
+    right: 50px;
+    top: 20px;
+}
+
+#share-modal label {
+	font-size: 1em;
+}
+
+#share-via {
+	display: inline-block;
+	margin: 10px 0 0 0;
+	vertical-align: middle;
+	width: 50%;
+}
+
+#email-share-icon, #sms-share-icon {
+	font-size: 2.5em;
+}
+
+.control-share {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#email-share {
+	margin: 10px 0 0 40px;
+}
+
+#sms-share {
+	margin: 10px 0 0 40px;
+}
+
+.control-share > * {
+	display: block;
+}
+
+.control-share i {
+	font-size: 1.9em;
+	text-align: center;
+}
+
+#access-control {
+	display: inline-block;
+	margin: 20px 0 0 0;
+	vertical-align: middle;
+	width: 50%;
+}
+
+#public-share {
+	margin: 10px 1em 0 0;
+}
+
+#users-share {
+	margin: 10px 0 0 0;
+}
+
+#overall-access-control {
+	margin: 0 0 10px 0;
+}
